@@ -5,7 +5,7 @@
 
 またOculus版のビートセイバーはSteam版とIDの取得方法が違うのでSteam版のみ対応となってます。
 
-![Beat Saber 2023_08_28 16_51_44](https://github.com/scifiHerb/levelListExtension/assets/109839172/c679eb60-e465-4cf1-bbfb-8fbf755a0b6c)
+![Beat Saber 2023_08_28 16_51_44](https://github.com/scifiHerb/levelListExtension/assets/109839172/70d496e8-b7d0-46ac-87c3-9f3b6c4b60e3)
 
 
 # 使い方

@@ -1,7 +1,7 @@
 # levelListExtension
 ビートセイバーの譜面リスト拡張MODです、指定した難易度のハイスコア(存在しない場合下の難易度）をリストに表示します.
 
-対応バージョンSteamVR版の1.29.1まで、新ノーツを含む譜面(V3)はScoreSaberにデータがないため取得できません。
+対応バージョンはSteamVR版の1.29.1まで、新ノーツを含む譜面(V3)はScoreSaberにデータがないため取得できません。
 
 ![Beat Saber 2023_08_29 20_02_03](https://github.com/scifiHerb/levelListExtension/assets/109839172/1b92b31a-7a6a-4b2c-bb47-90a7a34d9bff)
 

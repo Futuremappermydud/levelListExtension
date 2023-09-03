@@ -20,7 +20,11 @@
 
 # 設定項目 
 設定ファイル：(\Beat Saber\UserData\levelListExtension.json)
+
 譜面データ：(\Beat Saber\UserData\levelListExtension_Songs.json)
+
+
+
 ・"enable":           MODのOn Off
 
 ・"refresh":          trueにすると起動時譜面を(count * 8)取得します、取得後自動でfalseになります。

@@ -15,7 +15,7 @@
 
 対応バージョンはSteamVR版の1.29.1まで、新ノーツを含む譜面(V3)はScoreSaberにデータがないため取得できません。
 
-![Beat Saber 2023_09_02 18_01_12](https://github.com/scifiHerb/levelListExtension/assets/109839172/398a05f3-3fe0-4484-a174-bd9bb1175fa4)
+![Beat Saber 2023_09_04 17_42_36](https://github.com/scifiHerb/levelListExtension/assets/109839172/d211f7e9-b345-416e-85e9-c7055676a6f2)
 
 # 使い方
 初回起動時譜面の読み込みを行います、再読み込みはModSettingsのrefreshをTrueにします。

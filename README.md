@@ -35,16 +35,17 @@ Priorityに設定している方の譜面が優先して取得される仕様な
 ・Modifierに対応しました。
 
 ・プレイリストに難易度が設定されてる場合優先して読み込む設定を付けました、プレイリストの難易度を表示している際は末尾にアスタリスクが付きます。
-またModSettingsをシンプルに作り直しました。  
-# 設定項目 
-設定ファイル：(\Beat Saber\UserData\levelListExtension.json)
-
-譜面データ：(\Beat Saber\UserData\levelListExtension_Songs.json)
+またModSettingsをシンプルに作り直しました。    
 
 # 不具合他
 ・一部譜面でScoreSaberからMaxScoreが取得できない場合があり正常に表示されないことがあります  
 ・同一譜面で別々の難易度が設定されている場合片方のみ表示されます  
 ・プレイリストの選択時のデータを使用しているので初回起動時はプレイリストを選択し直す必要があります。  
+
+# 設定項目 
+設定ファイル：(\Beat Saber\UserData\levelListExtension.json)
+
+譜面データ：(\Beat Saber\UserData\levelListExtension_Songs.json)
 
 ・"enable":           MODのOn Off    
 
@@ -60,4 +61,52 @@ Priorityに設定している方の譜面が優先して取得される仕様な
 ・"Difficulty~"  Difficultyの色設定です  
 ・"scoreSaberColor/beatLeaderColor"  星の色設定です
 ・"listChoice" (Score Saber / Beat Leader) 優先するデータを変更できます
+
+------------------------
+# English Translate
+# Description  
+This is a Beat Saber map list extension MOD that displays the high score for the specified difficulty (or a lower difficulty if the high score doesn't exist) in the list.  
+
+It is compatible with SteamVR version up to 1.29.1, and starting from beta version 2.0, it also supports BeatLeader.  
+
+# Usage  
+From the ModSettings menu in levelListExtension, you can retrieve map information either by refreshing or during the initial game startup at the song selection screen.  
+Please note that maps with the priority setting will be retrieved first, so you need to reload them after changing the priority.  
+
+It will display the high score for the specified difficulty or the difficulty specified in the playlist on the map list.  
+
+# ChangeLog  
+2023-9-16  
+
+Added support for BeatLeader, allowing you to choose which one to prioritize.  
+Added support for Lawless, OneHand, and others.  
+Added color settings for stars and pp when obtaining scores from ScoreSaber or BeatLeader.  
+2023-9-6  
+
+You can now specify the color for each accuracy rank from the settings file.  
+You can set the color for difficulty display.    
+2023-9-4  
+
+Fixed a bug that caused the game to freeze on the next launch when quitting the game while the custom song tab was selected.  
+Added support for modifiers.  
+Added a setting to prioritize loading if a difficulty is set in the playlist; an asterisk will be added to the end when displaying playlist difficulties.  
+Also, ModSettings has been redesigned for simplicity.  
+# Issues and Others   
+Some maps may not display correctly if MaxScore cannot be obtained from ScoreSaber for certain maps.  
+If different difficulties are set for the same map, only one of them will be displayed.  
+Since it uses data from playlist selection, you need to select the playlist again on the first launch.    
+# Settings  
+Settings file: (\Beat Saber\UserData\levelListExtension.json)  
+
+Map data: (\Beat Saber\UserData\levelListExtension_Songs.json)
+
+"enable": MOD's On/Off  
+"refresh": When set to true, it retrieves (count * 8) maps on startup and automatically sets it to false after retrieval.  
+"priorityPlaylist": If a difficulty is set in the playlist, it will prioritize displaying the playlist's difficulty regardless of selectDiff, and an asterisk will be added to the list in that case.  
+"selectDiff": Specified difficulty (0=easy, 4=expert plus)  
+"count": Number of maps to retrieve (since it retrieves 8 maps at a time, it will retrieve count * 8 maps)  
+"Rank~": You can set the color for each accuracy rank.  
+"Difficulty~": Color setting for Difficulty.  
+"scoreSaberColor/beatLeaderColor": Color settings for stars.  
+"listChoice" (Score Saber / Beat Leader): You can change the preferred data source.  
 

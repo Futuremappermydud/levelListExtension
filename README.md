@@ -67,7 +67,7 @@ Priorityに設定している方の譜面が優先して取得される仕様な
 # Description  
 This is a Beat Saber map list extension MOD that displays the high score for the specified difficulty (or a lower difficulty if the high score doesn't exist) in the list.  
 
-It is compatible with SteamVR version up to 1.29.1, and starting from beta version 2.0, it also supports BeatLeader.  
+It is compatible with Beat Saber version 1.29.1 for the SteamVR version, and starting from beta version 2.0, it also supports BeatLeader. 
 
 # Usage  
 From the ModSettings menu in levelListExtension, you can retrieve map information either by refreshing or during the initial game startup at the song selection screen.  
